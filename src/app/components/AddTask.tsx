@@ -1,7 +1,6 @@
 "use client";
 
-import { addTodo } from '@/api';
-import { todo } from 'node:test';
+import { addTodo } from '@/api/index';
 import React, { ChangeEvent, FormEvent,useState } from 'react';
 import{v4 as uuidv4} from "uuid";
 
